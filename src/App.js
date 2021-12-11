@@ -34,18 +34,19 @@ function App() {
         key={i}
         img={info.img}
         name={info.name}
+        time={info.time}
         />
       ))}
     </div>
   );
 }
 
-function Recipe({img,name}) {
+function Recipe({img,name,time}) {
   return (
     <div>
       <img src={img} alt="No Img Found" />
       <h1>{name}</h1>
-      <h2>⏲️ 5-10</h2>
+      <h2>⏲️ {time}</h2>
     </div>
   );
 }
