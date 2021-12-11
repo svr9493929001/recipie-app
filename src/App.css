@@ -1,8 +1,12 @@
 .App{
-    display: grid;
+    /* display: grid;
     grid-template-columns: repeat(2, 1fr);
     justify-items: center;
-    justify-content: space-evenly;
+    justify-content: space-evenly; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+    justify-content: space-around;
     gap: 5rem;
     margin-top: 50px;
     margin-bottom: 50px;
