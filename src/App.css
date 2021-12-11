@@ -1,8 +1,4 @@
 .App{
-    /* display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    justify-items: center;
-    justify-content: space-evenly; */
     display: flex;
     flex-wrap: wrap;
     justify-items: center;
