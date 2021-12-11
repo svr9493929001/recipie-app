@@ -5,6 +5,7 @@
     justify-content: space-evenly;
     gap: 5rem;
     margin-top: 50px;
+    margin-bottom: 50px;
 }
 img{
   width: 300px;
