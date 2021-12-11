@@ -3,9 +3,8 @@
     flex-wrap: wrap;
     justify-items: center;
     justify-content: space-around;
-    gap: 5rem;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    gap: 4rem;
+    margin: 50px;
 }
 img{
   width: 300px;
