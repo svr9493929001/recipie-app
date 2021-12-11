@@ -43,10 +43,12 @@ function App() {
 
 function Recipe({img,name,time}) {
   return (
-    <div>
+    <div className="container">
       <img src={img} alt="No Img Found" />
-      <h1>{name}</h1>
-      <h2>⏲️ {time}</h2>
+      <div className='info'>
+        <h1>{name}</h1>
+        <h2>⏲️ {time}</h2>
+      </div>
     </div>
   );
 }
